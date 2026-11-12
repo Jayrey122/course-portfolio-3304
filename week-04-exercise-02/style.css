@@ -97,17 +97,14 @@ main>p {
     }
 }
 
-.collection-card .details{
-    color: #777777;
+.collection-card .description {
+    color: #333333;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    line-height: 1.7;
 }
 
-.collection-card img {
-    border: 2px solid #dddddd;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.collection-card: hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 18px rgba(181, 31, 43, 0, 0.35)
+.collection-card:hover {
+    transform: translate(-5px);
+    box-shadow: 0 6px 18px rgba(181, 31, 43, 0.35);
 }
