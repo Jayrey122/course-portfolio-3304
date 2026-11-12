@@ -87,7 +87,7 @@ main>p {
 
 @media (width >= 480px) {
     .collection-card {
-        flex-basis: 45;
+        flex-basis: 45%;
     }
 }
 
@@ -95,4 +95,19 @@ main>p {
     .collection-card {
         flex-basis: 30%;
     }
+}
+
+.collection-card .details{
+    color: #777777;
+}
+
+.collection-card img {
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.collection-card: hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(181, 31, 43, 0, 0.35)
 }
