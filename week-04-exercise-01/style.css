@@ -21,7 +21,7 @@ main {
     max-width: 800px;
     width: 90%;
     padding: 16px;
-    border: 1px solid rgba(11, 5 86);
+    border: 1px solid rgb(11, 5 86);
 }
 
 h1 {
@@ -48,7 +48,7 @@ p {
 .screenshot-container {
     margin: 32px 0;
     padding: 16px;
-    border: 5px dotted rgba(163, 9, 117);
+    border: 5px solid rgba(163, 9, 117);
     text-align: center;
 }
 
