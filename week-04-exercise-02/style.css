@@ -62,7 +62,7 @@ main>p {
     width: 100%;
     height: auto;
     display: block;
-    border: 1px ridge rgba(181, 31, 43, 0.35);
+    border: 5px ridge rgba(181, 31, 43, 0.35);
     margin-bottom: 16px;
 }
 
