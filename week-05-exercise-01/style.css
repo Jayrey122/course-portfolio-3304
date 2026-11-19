@@ -91,9 +91,9 @@ button {
 
 .button-01:hover {
 .button-01:focus-visible
-    background-color: var(--pink-light);
-    color: var(--pink-dark);
-    border-color: var(--pink-dark);
+    background-color:var(--pink-light);
+    color:var(--pink-dark);
+    border-color:var(--pink-dark);
 }
 
 /*Button 02: Teal Lift and Shadow*/
