@@ -91,7 +91,7 @@ button {
 
 .button-01:hover {
 .button-01:focus-visible
-    background-color:var(--pink-light);
+    background-color:var(--white);
     color:var(--pink-dark);
     border-color:var(--pink-dark);
 }
