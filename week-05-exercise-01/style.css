@@ -1,14 +1,14 @@
 /*Pink and teal color palette*/
 :root {
-    -- pink-light: #fce7f3;
-    -- pink: #be185d;
-    -- pink-dark: #9d174d;
-    -- teal-light: #ccfbf1;
-    -- teal: #0f766e;
-    -- teal-dark: #115e59;
-    -- page-background: #fff5f9;
-    -- white: #ffffff
-    -- text: #334155;
+    --pink-light: #fce7f3;
+    --pink: #be185d;
+    --pink-dark: #9d174d;
+    --teal-light: #ccfbf1;
+    --teal: #0f766e;
+    --teal-dark: #115e59;
+    --page-background: #fff5f9;
+    --white: #ffffff
+    --text: #334155;
 }
 /*Page setup*/
 * {
@@ -20,8 +20,8 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     line-height: 2;
-    background-color: var(-- page-background);
-    color: var(-- text);
+    background-color: var(--page-background);
+    color: var(--text);
     padding: 32px 16px;
 }
 
@@ -38,14 +38,14 @@ h1 {
     line-height: 1.1;
     font-weight: normal;
     text-align: center;
-    color: var(-- pink-dark)
+    color: var(--pink-dark)
     margin-bottom: 16px;
 }
 
 .subtitle {
     text-align: center;
     font-size: 16px;
-    color: var( teal-dark);
+    color: var(--teal-dark);
     margin-bottom: 32px;
 }
 
@@ -53,15 +53,15 @@ h2 {
     font-size: 24px;
     font-weight: normal;
     color: var(-- teal-dark)
-    border-bottom: 1px solid var(-- pink);
+    border-bottom: 1px solid var(--pink);
     padding-bottom: 8px;
     margin-bottom: 16px;
 }
 
 .button-section {
     padding: 32px;
-    background-color: var(-- white);
-    border: 1px solid var(-- pink)
+    background-color: var(--white);
+    border: 1px solid var(--pink)
     border-radius: 12px;;
 }
 
@@ -79,10 +79,10 @@ button {
 }
 /*Button 01: Pink color fade*/
 .button-01 {
-    background-color: var(-- pink);
+    background-color: var(--pink);
     color: var(-- white);
     padding: 16px 32px;
-    border: 2px solid var(-- pink);
+    border: 2px solid var(--pink);
     transition: 
         background-color 0.3s ease, 
         color 0.3s ease, 
@@ -91,17 +91,17 @@ button {
 
 .button-01:hover {
 .button-01:focus-visible
-    background-color: var(-- pink-light);
+    background-color: var(--pink-light);
     color: var(-- pink-dark);
-    border-color: var(-- pink-dark);
+    border-color: var(--pink-dark);
 }
 
 /*Button 02: Teal Lift and Shadow*/
 .button-02 {
-    background-color: var(-- teal);
-    color: var(-- white);
+    background-color: var(--teal);
+    color: var(--white);
     padding: 16px 32px;
-    border: 2px solid var(-- teal);
+    border: 2px solid var(--teal);
     transition: 
         transform 0.3s ease, 
         box-shadow 0.3s ease;
@@ -114,10 +114,10 @@ button {
 
 /*Button 03: Pink to Teal Slide*/
 .button-03 {
-    background-color: var(-- pink);
+    background-color: var(--pink);
     color: var(-- white);
     padding: 16px 32px;
-    border: 2px solid var(-- pink);
+    border: 2px solid var(--pink);
     font-family:'Courier New', Courier, monospace;
     transition:
         background-color 0.3s ease,
@@ -127,17 +127,17 @@ button {
 
 .button-03:hover,
 .button-03:focus-visible{
-    background-color: var(-- teal);
-    border-color: var(-- teal);
+    background-color: var(--teal);
+    border-color: var(--teal);
     transform: translate(6px);
 }
 
 /*Button 04: Soft Teal Shadow Lift*/
 .button-04 {
     background-color: var(-- teal-light);
-    color: var(-- teal);
+    color: var(--teal);
     padding: 16px 32px;
-    border: 2px solid var(-- teal);
+    border: 2px solid var(--teal);
     font-family:'Courier New', Courier, monospace;
     box-shadow: 0 2px 4px rgb(15 118 110 / 12%);
     transition:
@@ -149,8 +149,8 @@ button {
 
 .button-04:hover,
 .button-04:focus-visible{
-    background-color: var(-- teal);
-    color: var(-- white);
+    background-color: var(--teal);
+    color: var(--white);
     transform: translateY(-5px);
     box-shadow: 0 10px 18px rgb(15 118 110 / 25%);
 }
@@ -158,9 +158,9 @@ button {
 /*Button 05: Soft Pink Color Fade*/
 .button-05 {
     background-color: var(-- pink-light);
-    color: var(-- pink-dark);
+    color: var(--pink-dark);
     padding: 16px 32px;
-    border: 2px solid var(-- pink);
+    border: 2px solid var(--pink);
     font-family:'Courier New', Courier, monospace;
     transition:
         background-color 0.5s linear,
@@ -170,17 +170,17 @@ button {
 
 .button-05:hover,
 .button-05:focus-visible {
-    background-color: var(-- pink-dark);
-    color: var(-- white)
-    border-color: var(-- pink-dark);
+    background-color: var(--pink-dark);
+    color: var(--white)
+    border-color: var(--pink-dark);
 }
 
 /*Button 06: Teal to Pink Grow and Glow*/
 .button-06 {
-    background-color: var(-- teal);
-    color: var(-- white);
+    background-color: var(--teal);
+    color: var(--white);
     padding: 16px 32px;
-    border: 2px solid var(-- teal);
+    border: 2px solid var(--teal);
     font-family:'Courier New', Courier, monospace;
     box-shadow: 0 0 0 rgb(190 24 93 / 0%);
     transition:
@@ -192,15 +192,15 @@ button {
 
 .button-06:hover,
 .button-06:focus-visible{
-    background-color: var(-- pink);
-    border-color: var(-- pink);
+    background-color: var(--pink);
+    border-color: var(--pink);
     transform: scale(1.06);
     box-shadow: 0 0 20px rgb(190 24 93 / 35%);
 }
 
 /*Keyboard focus*/
 button:focus-visible {
-    outline: 3px solid var(-- teal-dark);
+    outline: 3px solid var(--teal-dark);
     outline-offset: 4px;
 }
  
