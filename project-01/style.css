@@ -276,7 +276,8 @@ p {
 .project-image img {
     width: 100%;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
+    mix-blend-mode: multiply;
 }
 
 .pink-image {
