@@ -123,6 +123,7 @@ p {
 
 .portrait-frame {
     flex: 0 0 225px;
+    overflow: hidden;
 }
 
 .portrait {
