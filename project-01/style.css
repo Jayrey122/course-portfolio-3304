@@ -80,3 +80,69 @@ p {
     font-weight: 600;
     text-align: center;
 }
+
+.site-name span {
+    font-size: 0.85em;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0;
+    padding: 14px 32px;
+    list-style: none;
+}
+
+.nav-list a {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    color: var(--ink);
+    font-size: 0.9rem;
+    text-decoration: done;
+    transition:
+        background-color 0.3 ease,
+        box-shadow 0.3 ease,
+        transform 0.3s ease;
+}
+
+.nav-list a:hover,
+.nav-list a:focus-visible {
+    background-color: var(--white);
+    box-shadow: 0 0 16px rgb(198 119 139 / 45%);
+    transform: translateY(-2px);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 36px 28px 48px;
+}
+
+.portrait-frame {
+    flex: 0 0 225px;
+}
+
+.portrait {
+    width: 225px;
+    height: 315px;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid var(--white);
+    border-radius: 50%;
+    outline: 1px solid var(--dusty-rose);
+    outline-offset: 5px;
+}
+
+.hero-heading {
+    flex: 1;
+    min-width: 0;
+}
+
+.eyebrow {
+    margin-bottom: 12px;
+    font-family: var(--script-font);
+    font-size: 1.3rem;
+}
