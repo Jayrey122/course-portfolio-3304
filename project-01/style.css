@@ -282,7 +282,7 @@ p {
 }
 
 .pink-image {
-    background-color: var(--rose);
+    background-color: var(--dusty-rose);
 }
 
 .mint-image {
@@ -290,7 +290,7 @@ p {
 }
 
 .rose-image {
-    background-color: var(--dusty-rose);
+    background-color: var(--rose);
 }
 
 .project-content {
