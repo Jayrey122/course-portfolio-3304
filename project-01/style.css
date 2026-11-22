@@ -212,3 +212,62 @@ p {
     height: 1px;
     background-color: var(--rose);
 }
+
+.floral-divider span {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.short-divider {
+    width: 32%;
+    height: 2px;
+    margin: 8px auto 64px;
+    background-color: var(--dust-rose);
+}
+
+.about-section {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 30px 28px;
+}
+
+.about-section p {
+    font-size: 0.95rem;
+}
+
+.projects-section {
+    padding: 0 28px;
+}
+
+.section-into {
+    margin-bottom: 24px;
+    font-size: 0.95rem;
+}
+
+.project-row {
+    display: flex;
+    align-items: strech;
+    gap: 24px;
+}
+
+.project-card {
+    flex: 1;
+    min-width: 0;
+    padding: 16px;
+    background-color: var(--white);
+    border: 1px solid transparent;
+    border-radius: 16px;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+
+}
+
+.project-card:hover,
+.project-card:focus-within {
+    border-color: var(--dust-rose);
+    box-shadow: 0 0 24px rgb(198 119 139 / 30%);
+    transform: translateY(-5px);
+}
+
