@@ -207,8 +207,10 @@ p {
 
 .floral-divider {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 0.75rem;
+    margin: 0 auto;
     color: var(--rose);
 }
 
@@ -221,7 +223,7 @@ p {
 }
 
 .floral-divider span {
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 1;
 }
 
