@@ -1,18 +1,18 @@
 :root {
-    --rose: #c6778b;
-    --gray: #707676;
-    --pink-background: #fae3fa;
-    --dust-rose: #c48d8d;
-    --mint: #71c6b1;
-    --white: #ffffff;
-    --ink: #51464d;
-    --body-font: "DM Sans", Arial, sans-serif;
-    --script-font: "Caveat", cursive;
+    --rose:#c6778b;
+    --gray:#707676;
+    --pink-background:#fae3fa;
+    --dust-rose:#c48d8d;
+    --mint:#71c6b1;
+    --white:#ffffff;
+    --ink:#51464d;
+    --body-font:"DM Sans", Arial, sans-serif;
+    --script-font:"Caveat", cursive;
 }
 
 *{
-    margin: 0;
-    background-color: var(--pink-background);
+    margin:0;
+    background-color:var(--pink-background);
     color: var(--ink);
     font-family: var(--body-font);
     font-size: 16px;
@@ -180,7 +180,7 @@ p {
     border-radius: 30px;
     font-size: 0.9rem;
     font-weight: 700;
-    text-aling: center;
+    text-align: center;
     text-decoration: none;
     box-shadow: 0 0 0 rgb(113 198 177 / 0%);
     transition:
@@ -191,7 +191,7 @@ p {
 
 .button:hover,
 .button:focus-visible {
-    border-color: var(--white),
+    border-color: var(--white);
     box-shadow:
         0 0 12px rgb(113 198 177 / 70%),
         0 0 28px rgb(113 198 177 / 45%);
