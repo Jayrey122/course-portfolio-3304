@@ -128,7 +128,7 @@ p {
     height:300px;
     padding: 4px;
     box-sizing: border-box;
-    border: 2px solid var(--rose);
+    border: 5px solid var(--rose);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
