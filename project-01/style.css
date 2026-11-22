@@ -271,3 +271,57 @@ p {
     transform: translateY(-5px);
 }
 
+.project-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.pink-image {
+    background-color: var(--pink-background);
+}
+
+.mint-image {
+    background-color: var(--mint);
+}
+
+.rose-image {
+    background-color: var(--dusty-rose);
+}
+
+.project-content {
+    padding: 18px 4px 4px;
+}
+
+.project-category {
+    margin-bottom: 8px;
+    font-family: var(--script-font);
+    font-size: 1.2rem;
+}
+
+.project-content > p:not(.project-category) {
+    font-size: 0.88rem;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-underline-offset: 4px;
+    transition:
+        background-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.project-link:hover,
+.project-link:focus-visible {
+    background-color: var(--pink-background);
+    box-shadow: 0 0 14px rgb(198 119 139 / 35%);
+}
+
+.project-note {
+    font-size: 0.85rem;
+    font-style: italic;
+}
